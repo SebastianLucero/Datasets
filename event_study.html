@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Study: Terremoto Ecuador 2016</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.7;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.2em;
+            font-weight: 400;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        .meta {
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 20px;
+        }
+
+        .abstract {
+            background: #f9f9f9;
+            border-left: 3px solid #333;
+            padding: 25px 30px;
+            margin: 40px 0;
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+
+        .abstract-title {
+            font-weight: 600;
+            font-size: 1em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #333;
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            font-size: 1.6em;
+            font-weight: 400;
+            color: #1a1a1a;
+            margin: 50px 0 25px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: 500;
+            color: #333;
+            margin: 35px 0 20px 0;
+        }
+
+        .figure {
+            margin: 40px 0;
+            page-break-inside: avoid;
+        }
+
+        .figure-title {
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .figure-caption {
+            font-size: 0.85em;
+            color: #666;
+            font-style: italic;
+            margin-top: 12px;
+            line-height: 1.6;
+        }
+
+        .figure-content {
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 30px;
+            margin: 15px 0;
+        }
+
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 0.9em;
+        }
+
+        .stats-table th,
+        .stats-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .stats-table th {
+            background: #f5f5f5;
+            font-weight: 600;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+        }
+
+        .stats-table tr:hover {
+            background: #fafafa;
+        }
+
+        .stats-table .number {
+            font-family: 'Courier New', monospace;
+            text-align: right;
+        }
+
+        .stats-table .significant {
+            font-weight: 600;
+            color: #d32f2f;
+        }
+
+        .result-box {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 25px;
+            margin: 30px 0;
+            font-size: 0.95em;
+        }
+
+        .result-box strong {
+            color: #1a1a1a;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 4px;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        .tooltip.show {
+            opacity: 1;
+        }
+
+        svg {
+            overflow: visible;
+        }
+
+        .axis text {
+            font-size: 11px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            stroke: #999;
+            shape-rendering: crispEdges;
+        }
+
+        .grid line {
+            stroke: #e0e0e0;
+            stroke-opacity: 1;
+            shape-rendering: crispEdges;
+        }
+
+        .grid path {
+            stroke-width: 0;
+        }
+
+        .reference-line {
+            stroke: #999;
+            stroke-width: 1;
+            stroke-dasharray: 4, 4;
+        }
+
+        .event-line {
+            stroke: #d32f2f;
+            stroke-width: 2;
+            stroke-dasharray: 6, 4;
+        }
+
+        .confidence-interval {
+            fill: #333;
+            opacity: 0.1;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Economic Impact of the 2016 Ecuador Earthquake:<br>An Event Study Analysis</h1>
+            <p class="subtitle">Difference-in-Differences Estimation Using Cantonal Sales Data</p>
+            <p class="meta">Enero 2026 | Análisis Econométrico | Ecuador</p>
+        </header>
+
+        <div class="abstract">
+            <div class="abstract-title">Abstract</div>
+            <p>
+                Este estudio examina el impacto económico del terremoto de Ecuador de abril 2016
+                en las ventas cantonales utilizando un diseño de event study y difference-in-differences (DiD).
+                Comparamos 18 cantones afectados (grupo tratado) con 4 cantones no afectados (grupo control)
+                durante el período 2012-2019. Los resultados sugieren un efecto positivo post-terremoto
+                (DiD = +0.172), posiblemente debido a inversiones en reconstrucción. El análisis de tendencias
+                paralelas previas al evento respalda la validez de la estrategia de identificación.
+            </p>
+        </div>
+
+        <h2>1. Introducción</h2>
+        <p>
+            El 16 de abril de 2016, Ecuador experimentó un terremoto de magnitud 7.8 que afectó
+            principalmente a la provincia de Manabí y zonas aledañas. Este estudio utiliza métodos
+            de inferencia causal para estimar el impacto económico del evento en ventas cantonales.
+        </p>
+
+        <div class="result-box">
+            <strong>Grupos de Análisis:</strong><br>
+            • Grupo Tratado: 18 cantones afectados por el terremoto<br>
+            • Grupo Control: 4 cantones no afectados<br>
+            • Período de análisis: 2012-2019 (8 años)<br>
+            • Evento: Abril 2016
+        </div>
+
+        <h2>2. Metodología</h2>
+
+        <h3>2.1 Especificación Econométrica</h3>
+        <p>
+            El estimador difference-in-differences se define como:
+        </p>
+        <div class="result-box">
+            <strong>DiD = [E(Y<sub>Tratado,Post</sub>) - E(Y<sub>Tratado,Pre</sub>)] -
+                        [E(Y<sub>Control,Post</sub>) - E(Y<sub>Control,Pre</sub>)]</strong>
+        </div>
+        <p>
+            donde Y representa el logaritmo natural de ventas, "Post" indica el período 2016-2019,
+            y "Pre" indica el período 2012-2015.
+        </p>
+
+        <h3>2.2 Supuestos de Identificación</h3>
+        <p>
+            La validez del estimador DiD requiere que, en ausencia del terremoto, las tendencias
+            de ventas entre cantones tratados y control hubieran sido paralelas (supuesto de tendencias paralelas).
+        </p>
+
+        <h2>3. Resultados</h2>
+
+        <h3>3.1 Estadísticas Descriptivas</h3>
+
+        <div class="figure">
+            <div class="figure-title">Tabla 1: Estadísticas Descriptivas por Grupo</div>
+            <table class="stats-table" id="descriptive-stats">
+                <thead>
+                    <tr>
+                        <th>Período</th>
+                        <th>Grupo</th>
+                        <th class="number">Promedio ln(Ventas)</th>
+                        <th class="number">Diferencia</th>
+                    </tr>
+                </thead>
+                <tbody id="stats-body">
+                    <!-- Llenado por JavaScript -->
+                </tbody>
+            </table>
+            <div class="figure-caption">
+                Nota: Las ventas están expresadas en logaritmo natural. El período pre-tratamiento
+                comprende 2012-2015, y el post-tratamiento 2016-2019.
+            </div>
+        </div>
+
+        <h3>3.2 Análisis de Tendencias Paralelas</h3>
+
+        <div class="figure">
+            <div class="figure-title">Figura 1: Tendencias Paralelas - Prueba del Supuesto de Identificación</div>
+            <div class="figure-content">
+                <div id="parallel-trends"></div>
+            </div>
+            <div class="figure-caption">
+                Nota: La figura muestra la evolución promedio del logaritmo natural de ventas para
+                cantones tratados (afectados) y control (no afectados). La línea vertical indica
+                el momento del terremoto (Abril 2016). Las tendencias pre-tratamiento son aproximadamente
+                paralelas, respaldando el supuesto de identificación.
+            </div>
+        </div>
+
+        <h3>3.3 Estimador Difference-in-Differences</h3>
+
+        <div class="result-box" id="did-result">
+            <!-- Llenado por JavaScript -->
+        </div>
+
+        <div class="figure">
+            <div class="figure-title">Figura 2: Visualización DiD - Efectos del Tratamiento</div>
+            <div class="figure-content">
+                <div id="did-visualization"></div>
+            </div>
+            <div class="figure-caption">
+                Nota: El panel muestra las medias pre y post-tratamiento para ambos grupos.
+                El estimador DiD es la diferencia entre las dos pendientes.
+            </div>
+        </div>
+
+        <h3>3.4 Event Study: Efectos Dinámicos</h3>
+
+        <div class="figure">
+            <div class="figure-title">Figura 3: Event Study Plot - Coeficientes Dinámicos</div>
+            <div class="figure-content">
+                <div id="event-study-plot"></div>
+            </div>
+            <div class="figure-caption">
+                Nota: La figura muestra los coeficientes de event study relativos al año base (t=-1, 2015).
+                Los coeficientes pre-tratamiento cercanos a cero sugieren tendencias paralelas.
+                El salto en t=0 y posterior indica el efecto del terremoto y la recuperación.
+            </div>
+        </div>
+
+        <h2>4. Discusión e Interpretación</h2>
+
+        <p>
+            Los resultados sugieren un efecto económico <strong>positivo</strong> del terremoto en las
+            ventas cantonales durante el período post-tratamiento. Este hallazgo aparentemente contraintuitivo
+            puede explicarse por:
+        </p>
+
+        <ul style="margin: 20px 0 20px 40px; line-height: 1.8;">
+            <li><strong>Reconstrucción:</strong> Inversión masiva en infraestructura y vivienda</li>
+            <li><strong>Ayuda externa:</strong> Flujo de recursos nacionales e internacionales</li>
+            <li><strong>Actividad económica temporal:</strong> Demanda de materiales de construcción y servicios</li>
+            <li><strong>Resiliencia económica:</strong> Capacidad de adaptación de las economías locales</li>
+        </ul>
+
+        <p>
+            El análisis de tendencias paralelas muestra que, previo al evento, los cantones tratados
+            y control seguían trayectorias similares, lo que respalda la validez causal de nuestras estimaciones.
+        </p>
+
+        <h2>5. Robustez y Limitaciones</h2>
+
+        <p>
+            Este análisis tiene varias limitaciones importantes:
+        </p>
+
+        <ul style="margin: 20px 0 20px 40px; line-height: 1.8;">
+            <li>El grupo control es pequeño (4 cantones), lo que limita la potencia estadística</li>
+            <li>No se dispone de información sobre intensidad del impacto (variación en el tratamiento)</li>
+            <li>Los datos de ventas están en logaritmo natural sin información sobre la transformación original</li>
+            <li>Factores de confusión potenciales (otras políticas, choques económicos) no están controlados</li>
+        </ul>
+
+        <h2>6. Conclusiones</h2>
+
+        <p>
+            Este event study demuestra que, utilizando técnicas de difference-in-differences, podemos
+            estimar el impacto causal de eventos naturales en indicadores económicos locales. Los resultados
+            sugieren que, si bien el terremoto de 2016 causó destrucción significativa, los efectos económicos
+            medidos a través de ventas fueron positivos en el mediano plazo, posiblemente debido a la
+            reconstrucción y flujos de ayuda.
+        </p>
+
+        <p>
+            Investigaciones futuras deberían explorar heterogeneidad en los efectos por tipo de sector
+            económico, intensidad del daño, y persistencia temporal de los impactos.
+        </p>
+
+        <footer>
+            <p>Event Study Analysis | Ecuador Earthquake 2016</p>
+            <p>Datos: Ventas Cantonales 2012-2019 | Metodología: Difference-in-Differences</p>
+        </footer>
+    </div>
+
+    <div class="tooltip"></div>
+
+    <script src="event_study.js"></script>
+</body>
+</html>

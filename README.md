@@ -4,11 +4,12 @@ Visualización interactiva de datos económicos de Ecuador usando D3.js v7.
 
 ## 🌐 Ver en GitHub (Online)
 
-**¿Quieres ver la visualización directamente desde GitHub?**
+**Dos visualizaciones disponibles:**
+
+### 📊 1. Visualización Completa (Dashboard Interactivo)
+**Archivo:** `index.html` - Dashboard completo con todas las visualizaciones
 
 👉 **[Lee las instrucciones completas aquí: COMO_VER_EN_GITHUB.md](COMO_VER_EN_GITHUB.md)**
-
-### Enlaces Rápidos (después de habilitar GitHub Pages):
 
 **GitHub Pages:** `https://sebastianlucero.github.io/Datasets/`
 
@@ -17,9 +18,17 @@ Visualización interactiva de datos económicos de Ecuador usando D3.js v7.
 https://htmlpreview.github.io/?https://github.com/SebastianLucero/Datasets/blob/claude/perform-analysis-B5ZkJ/index.html
 ```
 
+### 📈 2. Event Study Analysis (Estilo Académico Minimalista)
+**Archivo:** `event_study.html` - Análisis econométrico Difference-in-Differences del terremoto 2016
+
+**HTMLPreview:**
+```
+https://htmlpreview.github.io/?https://github.com/SebastianLucero/Datasets/blob/claude/perform-analysis-B5ZkJ/event_study.html
+```
+
 **Raw.githack:**
 ```
-https://raw.githack.com/SebastianLucero/Datasets/claude/perform-analysis-B5ZkJ/index.html
+https://raw.githack.com/SebastianLucero/Datasets/claude/perform-analysis-B5ZkJ/event_study.html
 ```
 
 ---

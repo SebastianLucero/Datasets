@@ -1,0 +1,14 @@
+{
+  "pre_treatment": {
+    "treated": 11.974548222222221,
+    "control": 12.007815625,
+    "diff": -0.03326740277777773
+  },
+  "post_treatment": {
+    "treated": 12.182880277777777,
+    "control": 12.044566249999999,
+    "diff": 0.13831402777777768
+  },
+  "did_estimator": 0.17158143055555541,
+  "interpretation": "Positivo indica efecto positivo post-terremoto"
+}

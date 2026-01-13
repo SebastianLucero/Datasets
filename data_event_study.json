@@ -1,0 +1,94 @@
+[
+  {
+    "group": "Tratados (Afectados)",
+    "treated": true,
+    "values": [
+      {
+        "event_time": -4,
+        "year": 2012,
+        "ln_ventas": 11.998008888888888
+      },
+      {
+        "event_time": -3,
+        "year": 2013,
+        "ln_ventas": 11.92563
+      },
+      {
+        "event_time": -2,
+        "year": 2014,
+        "ln_ventas": 11.95844288888889
+      },
+      {
+        "event_time": -1,
+        "year": 2015,
+        "ln_ventas": 12.01611111111111
+      },
+      {
+        "event_time": 0,
+        "year": 2016,
+        "ln_ventas": 11.973757777777777
+      },
+      {
+        "event_time": 1,
+        "year": 2017,
+        "ln_ventas": 12.164627222222222
+      },
+      {
+        "event_time": 2,
+        "year": 2018,
+        "ln_ventas": 12.397522777777777
+      },
+      {
+        "event_time": 3,
+        "year": 2019,
+        "ln_ventas": 12.195613333333334
+      }
+    ]
+  },
+  {
+    "group": "Control (No Afectados)",
+    "treated": false,
+    "values": [
+      {
+        "event_time": -4,
+        "year": 2012,
+        "ln_ventas": 11.940905
+      },
+      {
+        "event_time": -3,
+        "year": 2013,
+        "ln_ventas": 11.978505
+      },
+      {
+        "event_time": -2,
+        "year": 2014,
+        "ln_ventas": 12.0460325
+      },
+      {
+        "event_time": -1,
+        "year": 2015,
+        "ln_ventas": 12.065819999999999
+      },
+      {
+        "event_time": 0,
+        "year": 2016,
+        "ln_ventas": 12.073464999999999
+      },
+      {
+        "event_time": 1,
+        "year": 2017,
+        "ln_ventas": 12.117205
+      },
+      {
+        "event_time": 2,
+        "year": 2018,
+        "ln_ventas": 12.133955
+      },
+      {
+        "event_time": 3,
+        "year": 2019,
+        "ln_ventas": 11.85364
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "event_time": -4,
+    "year": 2012,
+    "coefficient": 0.10681277777777964,
+    "treated_mean": 11.998008888888888,
+    "control_mean": 11.940904999999999
+  },
+  {
+    "event_time": -3,
+    "year": 2013,
+    "coefficient": -0.0031661111111098705,
+    "treated_mean": 11.92563,
+    "control_mean": 11.978505
+  },
+  {
+    "event_time": -2,
+    "year": 2014,
+    "coefficient": -0.03788072222222105,
+    "treated_mean": 11.95844288888889,
+    "control_mean": 12.0460325
+  },
+  {
+    "event_time": -1,
+    "year": 2015,
+    "coefficient": 0.0,
+    "treated_mean": 12.01611111111111,
+    "control_mean": 12.06582
+  },
+  {
+    "event_time": 0,
+    "year": 2016,
+    "coefficient": -0.04999833333333292,
+    "treated_mean": 11.973757777777776,
+    "control_mean": 12.073464999999999
+  },
+  {
+    "event_time": 1,
+    "year": 2017,
+    "coefficient": 0.09713111111111239,
+    "treated_mean": 12.164627222222222,
+    "control_mean": 12.117205
+  },
+  {
+    "event_time": 2,
+    "year": 2018,
+    "coefficient": 0.31327666666666865,
+    "treated_mean": 12.397522777777779,
+    "control_mean": 12.133955
+  },
+  {
+    "event_time": 3,
+    "year": 2019,
+    "coefficient": 0.3916822222222258,
+    "treated_mean": 12.195613333333334,
+    "control_mean": 11.853639999999999
+  }
+]

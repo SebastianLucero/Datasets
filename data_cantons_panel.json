@@ -1,0 +1,1014 @@
+[
+  {
+    "canton": "24 de Mayo",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.85124
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.80995
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.63727
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 10.86236
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.13779
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 11.70551
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.09013
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.31397
+      }
+    ]
+  },
+  {
+    "canton": "Bolivar",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.88701
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.65317
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.31065
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.02748
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.19081
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.51363
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.62725
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.88224
+      }
+    ]
+  },
+  {
+    "canton": "Chone",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.12423
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.05443
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.98403
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.28161
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.17796
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.16663
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.22069
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.23263
+      }
+    ]
+  },
+  {
+    "canton": "El Carmen",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.91604
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.97189
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.18313
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.10246
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.20231
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.61779
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.55131
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.29719
+      }
+    ]
+  },
+  {
+    "canton": "Flavio Alfaro",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.08698
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.18646
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.60273
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.95598
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.73659
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.30722
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.77892
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.59687
+      }
+    ]
+  },
+  {
+    "canton": "Jama",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.39115
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.83323
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.78282
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.27393
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.23826
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 11.52536
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 11.98475
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.814
+      }
+    ]
+  },
+  {
+    "canton": "Jaramijó",
+    "treated": false,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.55334
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.48001
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.80339
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.35784
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.79042
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 13.57692
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 13.20725
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.92946
+      }
+    ]
+  },
+  {
+    "canton": "Jipijapa",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.10049
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.07782
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.9965
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.71662
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.84749
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.07885
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 11.85122
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.74892
+      }
+    ]
+  },
+  {
+    "canton": "Junín",
+    "treated": false,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.69455
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.8084
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.87875
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.998
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.33229
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.17384
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.29129
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.42044
+      }
+    ]
+  },
+  {
+    "canton": "Manta",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.39094
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.3193
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.30417
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.33538
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.24316
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.36225
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.31514
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.15919
+      }
+    ]
+  },
+  {
+    "canton": "Montecristi",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.89826
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.81841
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 13.11693
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.84593
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.89805
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 13.24485
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 13.41508
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 13.41644
+      }
+    ]
+  },
+  {
+    "canton": "Olmedo",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.32284
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 10.81202
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 9.584432
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 10.05219
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.34164
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 10.69043
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.96802
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 13.04238
+      }
+    ]
+  },
+  {
+    "canton": "Paján",
+    "treated": false,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.174
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.33243
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.28606
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.44834
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.23279
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.19173
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 11.84203
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.14134
+      }
+    ]
+  },
+  {
+    "canton": "Pedernales",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.02292
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.16109
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.09972
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.08458
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.92257
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 11.98617
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.40102
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.18325
+      }
+    ]
+  },
+  {
+    "canton": "Pichincha",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.0452
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.2913
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.16611
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.93869
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.67005
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.22222
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.11611
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.24692
+      }
+    ]
+  },
+  {
+    "canton": "Portoviejo",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.2805
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.2623
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.31396
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.30548
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.0932
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.13148
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.17203
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.07289
+      }
+    ]
+  },
+  {
+    "canton": "Puerto López",
+    "treated": false,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.34173
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.29318
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.21593
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.4591
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 10.93836
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 10.52633
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 11.19525
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 10.92332
+      }
+    ]
+  },
+  {
+    "canton": "Rocafuerte",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.42119
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.22508
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.28614
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.3988
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.27073
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.17267
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.29937
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.12803
+      }
+    ]
+  },
+  {
+    "canton": "San Vicente",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.90377
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.17617
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.07701
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.45223
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.52984
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.14683
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.4699
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 12.23731
+      }
+    ]
+  },
+  {
+    "canton": "Santa Ana",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.28311
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.18722
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.84977
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.68757
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.72218
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.32365
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.2216
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.35898
+      }
+    ]
+  },
+  {
+    "canton": "Sucre",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 11.87375
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 11.56676
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 11.70811
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 11.80489
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 11.76933
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 11.83282
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 11.96637
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.84088
+      }
+    ]
+  },
+  {
+    "canton": "Tosagua",
+    "treated": true,
+    "values": [
+      {
+        "year": 2012,
+        "event_time": -4,
+        "ln_ventas": 12.16454
+      },
+      {
+        "year": 2013,
+        "event_time": -3,
+        "ln_ventas": 12.25474
+      },
+      {
+        "year": 2014,
+        "event_time": -2,
+        "ln_ventas": 12.24849
+      },
+      {
+        "year": 2015,
+        "event_time": -1,
+        "ln_ventas": 12.16382
+      },
+      {
+        "year": 2016,
+        "event_time": 0,
+        "ln_ventas": 12.53568
+      },
+      {
+        "year": 2017,
+        "event_time": 1,
+        "ln_ventas": 12.93493
+      },
+      {
+        "year": 2018,
+        "event_time": 2,
+        "ln_ventas": 12.7065
+      },
+      {
+        "year": 2019,
+        "event_time": 3,
+        "ln_ventas": 11.94895
+      }
+    ]
+  }
+]
