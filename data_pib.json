@@ -1,0 +1,887 @@
+[
+  {
+    "año": 2008,
+    "trimestre": "I",
+    "periodo": "2008-I",
+    "pib": 13200000,
+    "sectores": {
+      "Comercio": 1439679,
+      "Agricultura": 1059720,
+      "Construcción": 1007301,
+      "Manufactura": 1609549,
+      "Enseñanza": 1012142,
+      "Alojamamiento": 219290,
+      "Transporte": 827642
+    }
+  },
+  {
+    "año": 2008,
+    "trimestre": "II",
+    "periodo": "2008-II",
+    "pib": 13400000,
+    "sectores": {
+      "Comercio": 1487213,
+      "Agricultura": 1065448,
+      "Construcción": 1039969,
+      "Manufactura": 1657761,
+      "Enseñanza": 1011958,
+      "Alojamamiento": 219995,
+      "Transporte": 844584
+    }
+  },
+  {
+    "año": 2008,
+    "trimestre": "III",
+    "periodo": "2008-III",
+    "pib": 13700000,
+    "sectores": {
+      "Comercio": 1517126,
+      "Agricultura": 1041317,
+      "Construcción": 1135778,
+      "Manufactura": 1672251,
+      "Enseñanza": 1031682,
+      "Alojamamiento": 229612,
+      "Transporte": 867308
+    }
+  },
+  {
+    "año": 2008,
+    "trimestre": "IV",
+    "periodo": "2008-IV",
+    "pib": 13900000,
+    "sectores": {
+      "Comercio": 1488575,
+      "Agricultura": 1042441,
+      "Construcción": 1188941,
+      "Manufactura": 1695011,
+      "Enseñanza": 1101229,
+      "Alojamamiento": 241499,
+      "Transporte": 869376
+    }
+  },
+  {
+    "año": 2009,
+    "trimestre": "I",
+    "periodo": "2009-I",
+    "pib": 13700000,
+    "sectores": {
+      "Comercio": 1433167,
+      "Agricultura": 1058518,
+      "Construcción": 1158461,
+      "Manufactura": 1652881,
+      "Enseñanza": 1127967,
+      "Alojamamiento": 243070,
+      "Transporte": 889903
+    }
+  },
+  {
+    "año": 2009,
+    "trimestre": "II",
+    "periodo": "2009-II",
+    "pib": 13700000,
+    "sectores": {
+      "Comercio": 1397245,
+      "Agricultura": 1075422,
+      "Construcción": 1126846,
+      "Manufactura": 1625734,
+      "Enseñanza": 1095347,
+      "Alojamamiento": 247756,
+      "Transporte": 908016
+    }
+  },
+  {
+    "año": 2009,
+    "trimestre": "III",
+    "periodo": "2009-III",
+    "pib": 13600000,
+    "sectores": {
+      "Comercio": 1408528,
+      "Agricultura": 1093370,
+      "Construcción": 1105881,
+      "Manufactura": 1624653,
+      "Enseñanza": 1128040,
+      "Alojamamiento": 249226,
+      "Transporte": 912829
+    }
+  },
+  {
+    "año": 2009,
+    "trimestre": "IV",
+    "periodo": "2009-IV",
+    "pib": 13600000,
+    "sectores": {
+      "Comercio": 1461497,
+      "Agricultura": 1104632,
+      "Construcción": 1103770,
+      "Manufactura": 1630284,
+      "Enseñanza": 1127964,
+      "Alojamamiento": 250162,
+      "Transporte": 921065
+    }
+  },
+  {
+    "año": 2010,
+    "trimestre": "I",
+    "periodo": "2010-I",
+    "pib": 13700000,
+    "sectores": {
+      "Comercio": 1441278,
+      "Agricultura": 1104039,
+      "Construcción": 1119721,
+      "Manufactura": 1675363,
+      "Enseñanza": 1157028,
+      "Alojamamiento": 255067,
+      "Transporte": 914886
+    }
+  },
+  {
+    "año": 2010,
+    "trimestre": "II",
+    "periodo": "2010-II",
+    "pib": 13900000,
+    "sectores": {
+      "Comercio": 1472669,
+      "Agricultura": 1088533,
+      "Construcción": 1136416,
+      "Manufactura": 1712934,
+      "Enseñanza": 1188075,
+      "Alojamamiento": 254984,
+      "Transporte": 918736
+    }
+  },
+  {
+    "año": 2010,
+    "trimestre": "III",
+    "periodo": "2010-III",
+    "pib": 14200000,
+    "sectores": {
+      "Comercio": 1479524,
+      "Agricultura": 1079721,
+      "Construcción": 1170498,
+      "Manufactura": 1723949,
+      "Enseñanza": 1209812,
+      "Alojamamiento": 255876,
+      "Transporte": 929430
+    }
+  },
+  {
+    "año": 2010,
+    "trimestre": "IV",
+    "periodo": "2010-IV",
+    "pib": 14600000,
+    "sectores": {
+      "Comercio": 1502583,
+      "Agricultura": 1088696,
+      "Construcción": 1222462,
+      "Manufactura": 1755657,
+      "Enseñanza": 1246773,
+      "Alojamamiento": 265384,
+      "Transporte": 946283
+    }
+  },
+  {
+    "año": 2011,
+    "trimestre": "I",
+    "periodo": "2011-I",
+    "pib": 14800000,
+    "sectores": {
+      "Comercio": 1529457,
+      "Agricultura": 1124190,
+      "Construcción": 1280083,
+      "Manufactura": 1785201,
+      "Enseñanza": 1239450,
+      "Alojamamiento": 262211,
+      "Transporte": 956033
+    }
+  },
+  {
+    "año": 2011,
+    "trimestre": "II",
+    "periodo": "2011-II",
+    "pib": 15200000,
+    "sectores": {
+      "Comercio": 1551475,
+      "Agricultura": 1170052,
+      "Construcción": 1333811,
+      "Manufactura": 1806852,
+      "Enseñanza": 1249986,
+      "Alojamamiento": 273081,
+      "Transporte": 972120
+    }
+  },
+  {
+    "año": 2011,
+    "trimestre": "III",
+    "periodo": "2011-III",
+    "pib": 15400000,
+    "sectores": {
+      "Comercio": 1574961,
+      "Agricultura": 1191174,
+      "Construcción": 1397872,
+      "Manufactura": 1835264,
+      "Enseñanza": 1249077,
+      "Alojamamiento": 277019,
+      "Transporte": 986661
+    }
+  },
+  {
+    "año": 2011,
+    "trimestre": "IV",
+    "periodo": "2011-IV",
+    "pib": 15500000,
+    "sectores": {
+      "Comercio": 1582464,
+      "Agricultura": 1203797,
+      "Construcción": 1453326,
+      "Manufactura": 1838664,
+      "Enseñanza": 1284489,
+      "Alojamamiento": 280449,
+      "Transporte": 999494
+    }
+  },
+  {
+    "año": 2012,
+    "trimestre": "I",
+    "periodo": "2012-I",
+    "pib": 15800000,
+    "sectores": {
+      "Comercio": 1607951,
+      "Agricultura": 1178405,
+      "Construcción": 1467541,
+      "Manufactura": 1843411,
+      "Enseñanza": 1307726,
+      "Alojamamiento": 279943,
+      "Transporte": 1009713
+    }
+  },
+  {
+    "año": 2012,
+    "trimestre": "II",
+    "periodo": "2012-II",
+    "pib": 16100000,
+    "sectores": {
+      "Comercio": 1633022,
+      "Agricultura": 1165994,
+      "Construcción": 1515510,
+      "Manufactura": 1871199,
+      "Enseñanza": 1307735,
+      "Alojamamiento": 287133,
+      "Transporte": 1034577
+    }
+  },
+  {
+    "año": 2012,
+    "trimestre": "III",
+    "periodo": "2012-III",
+    "pib": 16200000,
+    "sectores": {
+      "Comercio": 1646139,
+      "Agricultura": 1155332,
+      "Construcción": 1551956,
+      "Manufactura": 1884690,
+      "Enseñanza": 1344802,
+      "Alojamamiento": 285735,
+      "Transporte": 1048530
+    }
+  },
+  {
+    "año": 2012,
+    "trimestre": "IV",
+    "periodo": "2012-IV",
+    "pib": 16300000,
+    "sectores": {
+      "Comercio": 1642746,
+      "Agricultura": 1167826,
+      "Construcción": 1597314,
+      "Manufactura": 1910796,
+      "Enseñanza": 1404486,
+      "Alojamamiento": 283309,
+      "Transporte": 1059536
+    }
+  },
+  {
+    "año": 2013,
+    "trimestre": "I",
+    "periodo": "2013-I",
+    "pib": 16500000,
+    "sectores": {
+      "Comercio": 1722967,
+      "Agricultura": 1202350,
+      "Construcción": 1605410,
+      "Manufactura": 1950903,
+      "Enseñanza": 1342743,
+      "Alojamamiento": 288348,
+      "Transporte": 1104072
+    }
+  },
+  {
+    "año": 2013,
+    "trimestre": "II",
+    "periodo": "2013-II",
+    "pib": 16800000,
+    "sectores": {
+      "Comercio": 1763450,
+      "Agricultura": 1217528,
+      "Construcción": 1636426,
+      "Manufactura": 1989997,
+      "Enseñanza": 1374064,
+      "Alojamamiento": 295441,
+      "Transporte": 1142261
+    }
+  },
+  {
+    "año": 2013,
+    "trimestre": "III",
+    "periodo": "2013-III",
+    "pib": 17100000,
+    "sectores": {
+      "Comercio": 1759001,
+      "Agricultura": 1260914,
+      "Construcción": 1672700,
+      "Manufactura": 2009774,
+      "Enseñanza": 1381500,
+      "Alojamamiento": 301572,
+      "Transporte": 1157028
+    }
+  },
+  {
+    "año": 2013,
+    "trimestre": "IV",
+    "periodo": "2013-IV",
+    "pib": 17200000,
+    "sectores": {
+      "Comercio": 1727419,
+      "Agricultura": 1286405,
+      "Construcción": 1672231,
+      "Manufactura": 2021514,
+      "Enseñanza": 1388109,
+      "Alojamamiento": 305577,
+      "Transporte": 1173222
+    }
+  },
+  {
+    "año": 2014,
+    "trimestre": "I",
+    "periodo": "2014-I",
+    "pib": 17100000,
+    "sectores": {
+      "Comercio": 1742160,
+      "Agricultura": 1298995,
+      "Construcción": 1678525,
+      "Manufactura": 2042976,
+      "Enseñanza": 1315460,
+      "Alojamamiento": 310818,
+      "Transporte": 1162666
+    }
+  },
+  {
+    "año": 2014,
+    "trimestre": "II",
+    "periodo": "2014-II",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1803590,
+      "Agricultura": 1312566,
+      "Construcción": 1677984,
+      "Manufactura": 2065642,
+      "Enseñanza": 1472994,
+      "Alojamamiento": 306688,
+      "Transporte": 1160811
+    }
+  },
+  {
+    "año": 2014,
+    "trimestre": "III",
+    "periodo": "2014-III",
+    "pib": 17700000,
+    "sectores": {
+      "Comercio": 1845414,
+      "Agricultura": 1319937,
+      "Construcción": 1775774,
+      "Manufactura": 2084997,
+      "Enseñanza": 1436311,
+      "Alojamamiento": 300084,
+      "Transporte": 1175626
+    }
+  },
+  {
+    "año": 2014,
+    "trimestre": "IV",
+    "periodo": "2014-IV",
+    "pib": 17800000,
+    "sectores": {
+      "Comercio": 1825193,
+      "Agricultura": 1326671,
+      "Construcción": 1761173,
+      "Manufactura": 2072956,
+      "Enseñanza": 1508173,
+      "Alojamamiento": 300309,
+      "Transporte": 1196183
+    }
+  },
+  {
+    "año": 2015,
+    "trimestre": "I",
+    "periodo": "2015-I",
+    "pib": 17800000,
+    "sectores": {
+      "Comercio": 1855396,
+      "Agricultura": 1341142,
+      "Construcción": 1731129,
+      "Manufactura": 2086407,
+      "Enseñanza": 1517361,
+      "Alojamamiento": 296633,
+      "Transporte": 1228002
+    }
+  },
+  {
+    "año": 2015,
+    "trimestre": "II",
+    "periodo": "2015-II",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1806370,
+      "Agricultura": 1337329,
+      "Construcción": 1711457,
+      "Manufactura": 2073204,
+      "Enseñanza": 1476715,
+      "Alojamamiento": 291014,
+      "Transporte": 1225592
+    }
+  },
+  {
+    "año": 2015,
+    "trimestre": "III",
+    "periodo": "2015-III",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1766703,
+      "Agricultura": 1339726,
+      "Construcción": 1699919,
+      "Manufactura": 2043380,
+      "Enseñanza": 1498813,
+      "Alojamamiento": 294921,
+      "Transporte": 1233587
+    }
+  },
+  {
+    "año": 2015,
+    "trimestre": "IV",
+    "periodo": "2015-IV",
+    "pib": 17300000,
+    "sectores": {
+      "Comercio": 1736846,
+      "Agricultura": 1347929,
+      "Construcción": 1696242,
+      "Manufactura": 2027456,
+      "Enseñanza": 1469963,
+      "Alojamamiento": 290798,
+      "Transporte": 1224148
+    }
+  },
+  {
+    "año": 2016,
+    "trimestre": "I",
+    "periodo": "2016-I",
+    "pib": 17200000,
+    "sectores": {
+      "Comercio": 1707475,
+      "Agricultura": 1334151,
+      "Construcción": 1648706,
+      "Manufactura": 1996501,
+      "Enseñanza": 1489729,
+      "Alojamamiento": 292583,
+      "Transporte": 1224510
+    }
+  },
+  {
+    "año": 2016,
+    "trimestre": "II",
+    "periodo": "2016-II",
+    "pib": 17300000,
+    "sectores": {
+      "Comercio": 1703515,
+      "Agricultura": 1333392,
+      "Construcción": 1604929,
+      "Manufactura": 2001021,
+      "Enseñanza": 1502647,
+      "Alojamamiento": 287445,
+      "Transporte": 1248260
+    }
+  },
+  {
+    "año": 2016,
+    "trimestre": "III",
+    "periodo": "2016-III",
+    "pib": 17300000,
+    "sectores": {
+      "Comercio": 1716614,
+      "Agricultura": 1336651,
+      "Construcción": 1604893,
+      "Manufactura": 2000805,
+      "Enseñanza": 1501023,
+      "Alojamamiento": 292266,
+      "Transporte": 1256792
+    }
+  },
+  {
+    "año": 2016,
+    "trimestre": "IV",
+    "periodo": "2016-IV",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1753341,
+      "Agricultura": 1352541,
+      "Construcción": 1585651,
+      "Manufactura": 2017977,
+      "Enseñanza": 1496978,
+      "Alojamamiento": 294226,
+      "Transporte": 1247195
+    }
+  },
+  {
+    "año": 2017,
+    "trimestre": "I",
+    "periodo": "2017-I",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1771639,
+      "Agricultura": 1372841,
+      "Construcción": 1542934,
+      "Manufactura": 2046953,
+      "Enseñanza": 1538995,
+      "Alojamamiento": 291447,
+      "Transporte": 1248126
+    }
+  },
+  {
+    "año": 2017,
+    "trimestre": "II",
+    "periodo": "2017-II",
+    "pib": 17700000,
+    "sectores": {
+      "Comercio": 1800383,
+      "Agricultura": 1392338,
+      "Construcción": 1541028,
+      "Manufactura": 2060005,
+      "Enseñanza": 1525310,
+      "Alojamamiento": 308770,
+      "Transporte": 1237418
+    }
+  },
+  {
+    "año": 2017,
+    "trimestre": "III",
+    "periodo": "2017-III",
+    "pib": 17800000,
+    "sectores": {
+      "Comercio": 1823360,
+      "Agricultura": 1401927,
+      "Construcción": 1539551,
+      "Manufactura": 2071107,
+      "Enseñanza": 1566669,
+      "Alojamamiento": 314166,
+      "Transporte": 1246071
+    }
+  },
+  {
+    "año": 2017,
+    "trimestre": "IV",
+    "periodo": "2017-IV",
+    "pib": 18000000,
+    "sectores": {
+      "Comercio": 1857433,
+      "Agricultura": 1426246,
+      "Construcción": 1536344,
+      "Manufactura": 2086730,
+      "Enseñanza": 1586209,
+      "Alojamamiento": 319286,
+      "Transporte": 1250388
+    }
+  },
+  {
+    "año": 2018,
+    "trimestre": "I",
+    "periodo": "2018-I",
+    "pib": 17800000,
+    "sectores": {
+      "Comercio": 1852113,
+      "Agricultura": 1413785,
+      "Construcción": 1565406,
+      "Manufactura": 2078652,
+      "Enseñanza": 1555671,
+      "Alojamamiento": 319314,
+      "Transporte": 1289004
+    }
+  },
+  {
+    "año": 2018,
+    "trimestre": "II",
+    "periodo": "2018-II",
+    "pib": 17900000,
+    "sectores": {
+      "Comercio": 1836453,
+      "Agricultura": 1391186,
+      "Construcción": 1574345,
+      "Manufactura": 2092999,
+      "Enseñanza": 1606599,
+      "Alojamamiento": 325295,
+      "Transporte": 1302256
+    }
+  },
+  {
+    "año": 2018,
+    "trimestre": "III",
+    "periodo": "2018-III",
+    "pib": 18100000,
+    "sectores": {
+      "Comercio": 1843934,
+      "Agricultura": 1366476,
+      "Construcción": 1553522,
+      "Manufactura": 2096726,
+      "Enseñanza": 1624457,
+      "Alojamamiento": 331607,
+      "Transporte": 1307643
+    }
+  },
+  {
+    "año": 2018,
+    "trimestre": "IV",
+    "periodo": "2018-IV",
+    "pib": 18100000,
+    "sectores": {
+      "Comercio": 1839946,
+      "Agricultura": 1369398,
+      "Construcción": 1501173,
+      "Manufactura": 2095890,
+      "Enseñanza": 1662759,
+      "Alojamamiento": 331445,
+      "Transporte": 1324868
+    }
+  },
+  {
+    "año": 2019,
+    "trimestre": "I",
+    "periodo": "2019-I",
+    "pib": 18000000,
+    "sectores": {
+      "Comercio": 1838366,
+      "Agricultura": 1376989,
+      "Construcción": 1465000,
+      "Manufactura": 2100566,
+      "Enseñanza": 1594662,
+      "Alojamamiento": 342029,
+      "Transporte": 1324002
+    }
+  },
+  {
+    "año": 2019,
+    "trimestre": "II",
+    "periodo": "2019-II",
+    "pib": 18000000,
+    "sectores": {
+      "Comercio": 1847161,
+      "Agricultura": 1377380,
+      "Construcción": 1463591,
+      "Manufactura": 2106636,
+      "Enseñanza": 1614095,
+      "Alojamamiento": 342748,
+      "Transporte": 1332666
+    }
+  },
+  {
+    "año": 2019,
+    "trimestre": "III",
+    "periodo": "2019-III",
+    "pib": 18100000,
+    "sectores": {
+      "Comercio": 1827912,
+      "Agricultura": 1371595,
+      "Construcción": 1499201,
+      "Manufactura": 2111869,
+      "Enseñanza": 1581113,
+      "Alojamamiento": 341839,
+      "Transporte": 1332743
+    }
+  },
+  {
+    "año": 2019,
+    "trimestre": "IV",
+    "periodo": "2019-IV",
+    "pib": 17800000,
+    "sectores": {
+      "Comercio": 1802054,
+      "Agricultura": 1385305,
+      "Construcción": 1474652,
+      "Manufactura": 2095289,
+      "Enseñanza": 1555711,
+      "Alojamamiento": 338780,
+      "Transporte": 1294925
+    }
+  },
+  {
+    "año": 2020,
+    "trimestre": "I",
+    "periodo": "2020-I",
+    "pib": 17600000,
+    "sectores": {
+      "Comercio": 1776245,
+      "Agricultura": 1407358,
+      "Construcción": 1318400,
+      "Manufactura": 2060436,
+      "Enseñanza": 1638543,
+      "Alojamamiento": 321157,
+      "Transporte": 1224850
+    }
+  },
+  {
+    "año": 2020,
+    "trimestre": "II",
+    "periodo": "2020-II",
+    "pib": 15500000,
+    "sectores": {
+      "Comercio": 1570339,
+      "Agricultura": 1350321,
+      "Construcción": 1173044,
+      "Manufactura": 1885565,
+      "Enseñanza": 1531357,
+      "Alojamamiento": 250363,
+      "Transporte": 940975
+    }
+  },
+  {
+    "año": 2020,
+    "trimestre": "III",
+    "periodo": "2020-III",
+    "pib": 16500000,
+    "sectores": {
+      "Comercio": 1641352,
+      "Agricultura": 1341647,
+      "Construcción": 1120272,
+      "Manufactura": 1983628,
+      "Enseñanza": 1495745,
+      "Alojamamiento": 229853,
+      "Transporte": 1153349
+    }
+  },
+  {
+    "año": 2020,
+    "trimestre": "IV",
+    "periodo": "2020-IV",
+    "pib": 16700000,
+    "sectores": {
+      "Comercio": 1752818,
+      "Agricultura": 1370119,
+      "Construcción": 1107589,
+      "Manufactura": 2003871,
+      "Enseñanza": 1500762,
+      "Alojamamiento": 276303,
+      "Transporte": 1189292
+    }
+  },
+  {
+    "año": 2021,
+    "trimestre": "I",
+    "periodo": "2021-I",
+    "pib": 16900000,
+    "sectores": {
+      "Comercio": 1806878,
+      "Agricultura": 1384065,
+      "Construcción": 1105535,
+      "Manufactura": 2010280,
+      "Enseñanza": 1490768,
+      "Alojamamiento": 305142,
+      "Transporte": 1228306
+    }
+  },
+  {
+    "año": 2021,
+    "trimestre": "II",
+    "periodo": "2021-II",
+    "pib": 17300000,
+    "sectores": {
+      "Comercio": 1856038,
+      "Agricultura": 1365509,
+      "Construcción": 1100128,
+      "Manufactura": 2049154,
+      "Enseñanza": 1538849,
+      "Alojamamiento": 314833,
+      "Transporte": 1265527
+    }
+  },
+  {
+    "año": 2021,
+    "trimestre": "III",
+    "periodo": "2021-III",
+    "pib": 17400000,
+    "sectores": {
+      "Comercio": 1891260,
+      "Agricultura": 1341286,
+      "Construcción": 1099465,
+      "Manufactura": 2054470,
+      "Enseñanza": 1503196,
+      "Alojamamiento": 315704,
+      "Transporte": 1288110
+    }
+  },
+  {
+    "año": 2021,
+    "trimestre": "IV",
+    "periodo": "2021-IV",
+    "pib": 17500000,
+    "sectores": {
+      "Comercio": 1931225,
+      "Agricultura": 1399914,
+      "Construcción": 1101105,
+      "Manufactura": 2065053,
+      "Enseñanza": 1585565,
+      "Alojamamiento": 330027,
+      "Transporte": 1317220
+    }
+  },
+  {
+    "año": 2022,
+    "trimestre": "I",
+    "periodo": "2022-I",
+    "pib": 17600000,
+    "sectores": {
+      "Comercio": 1925932,
+      "Agricultura": 1366469,
+      "Construcción": 1100305,
+      "Manufactura": 2054685,
+      "Enseñanza": 1583759,
+      "Alojamamiento": 338833,
+      "Transporte": 1309435
+    }
+  },
+  {
+    "año": 2022,
+    "trimestre": "II",
+    "periodo": "2022-II",
+    "pib": 17600000,
+    "sectores": {
+      "Comercio": 1933495,
+      "Agricultura": 1313502,
+      "Construcción": 1101422,
+      "Manufactura": 2057377,
+      "Enseñanza": 1552576,
+      "Alojamamiento": 357704,
+      "Transporte": 1321408
+    }
+  },
+  {
+    "año": 2022,
+    "trimestre": "III",
+    "periodo": "2022-III",
+    "pib": 17900000,
+    "sectores": {
+      "Comercio": 1935669,
+      "Agricultura": 1320537,
+      "Construcción": 1100247,
+      "Manufactura": 2064035,
+      "Enseñanza": 1553827,
+      "Alojamamiento": 352821,
+      "Transporte": 1343490
+    }
+  }
+]

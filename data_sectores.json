@@ -1,0 +1,37 @@
+[
+  {
+    "sector": "Manufactura",
+    "participacion": 11.80652899371717,
+    "correlacion": 0.9928181120788543
+  },
+  {
+    "sector": "Comercio",
+    "participacion": 10.350680605623648,
+    "correlacion": 0.9504006214536665
+  },
+  {
+    "sector": "Enseñanza",
+    "participacion": 8.54728066742198,
+    "correlacion": 0.9435288662954842
+  },
+  {
+    "sector": "Construcción",
+    "participacion": 8.503539499433515,
+    "correlacion": 0.5985211729177227
+  },
+  {
+    "sector": "Agricultura",
+    "participacion": 7.705535791533628,
+    "correlacion": 0.9287732007155772
+  },
+  {
+    "sector": "Transporte",
+    "participacion": 6.905834689463385,
+    "correlacion": 0.9606805250586868
+  },
+  {
+    "sector": "Alojamamiento",
+    "participacion": 1.7724781130909466,
+    "correlacion": 0.8743976141751673
+  }
+]
