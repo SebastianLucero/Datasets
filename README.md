@@ -2,7 +2,29 @@
 
 Visualización interactiva de datos económicos de Ecuador usando D3.js v7.
 
-## 🚀 Inicio Rápido
+## 🌐 Ver en GitHub (Online)
+
+**¿Quieres ver la visualización directamente desde GitHub?**
+
+👉 **[Lee las instrucciones completas aquí: COMO_VER_EN_GITHUB.md](COMO_VER_EN_GITHUB.md)**
+
+### Enlaces Rápidos (después de habilitar GitHub Pages):
+
+**GitHub Pages:** `https://sebastianlucero.github.io/Datasets/`
+
+**HTMLPreview:**
+```
+https://htmlpreview.github.io/?https://github.com/SebastianLucero/Datasets/blob/claude/perform-analysis-B5ZkJ/index.html
+```
+
+**Raw.githack:**
+```
+https://raw.githack.com/SebastianLucero/Datasets/claude/perform-analysis-B5ZkJ/index.html
+```
+
+---
+
+## 🚀 Inicio Rápido (Local)
 
 ### Opción 1: Abrir directamente en navegador
 ```bash
